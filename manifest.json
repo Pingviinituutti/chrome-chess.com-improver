@@ -2,7 +2,7 @@
   "manifest_version": 2,
  
   "name": "Chess.com improver",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "Remove right margin in chess.com",
   "permissions": [
     "activeTab"
@@ -13,6 +13,8 @@
     "matches": [
       "https://www.chess.com/game/live/*",
       "https://chess.com/game/live/*",
+      "https://www.chess.com/puzzles/*",
+      "https://chess.com/puzzles/*",
       "https://www.chess.com/play/*",
       "https://chess.com/play/*"
     ]
